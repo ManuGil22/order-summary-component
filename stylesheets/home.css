@@ -6,15 +6,32 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Red Hat Display', sans-serif;
 }
 
 .card {
     background-color: white;
     max-width: 400px;
     border-radius: 1rem;
+    text-align: center;
 }
 
 .illustration {
     max-width: 400px;
     border-radius: 1rem 1rem 0 0;
+}
+
+.container {
+    margin: 2rem;
+}
+
+.card-title {
+    color: hsl(223, 47%, 23%);
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.card-description {
+    color: hsl(224, 23%, 55%);
+    font-size: 16px;
 }

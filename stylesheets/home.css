@@ -75,6 +75,16 @@ body {
     font-weight: 400;
 }
 
+a {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+a:hover {
+    text-decoration: none;
+    color: rgba(56, 40, 224, 0.8);
+}
+
 .btn {
     display: block;
     width: 100%;
@@ -94,8 +104,16 @@ body {
     box-shadow: 0 5px 15px 1px rgba(56, 40, 224, 0.4);
 }
 
+.payment-btn:hover{
+    background-color: rgba(56, 40, 224, 0.8);
+}
+
 .cancel-btn{
     margin-top: 1rem;
     color: hsl(224, 23%, 55%);
     background-color: white;
+}
+
+.cancel-btn:hover {
+    color: black;
 }

@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Frontend Mentor solution](https://www.frontendmentor.io/solutions/ordersummarycomponent-H146KNNH5)
 - Live Site URL: [GitHub project page](https://manugil22.github.io/order-summary-component/)
 
 ## My process

@@ -117,3 +117,15 @@ a:hover {
 .cancel-btn:hover {
     color: black;
 }
+
+@media (max-width: 450px){
+    .card {
+        max-width: 350px;
+    }
+    .illustration {
+        max-width: 350px;
+    }
+    .card-plan {
+        padding: 0.7rem;
+    }
+}

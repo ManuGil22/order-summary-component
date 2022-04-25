@@ -14,6 +14,7 @@ body {
     max-width: 420px;
     border-radius: 1rem;
     text-align: center;
+    padding-bottom: 0.1rem;
 }
 
 .illustration {
@@ -22,7 +23,7 @@ body {
 }
 
 .container {
-    margin: 2rem 3rem 3rem 3rem;
+    margin: 2rem 3rem 1.5rem 3rem;
 }
 
 .card-title {
@@ -74,3 +75,27 @@ body {
     font-weight: 400;
 }
 
+.btn {
+    display: block;
+    width: 100%;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 0.6rem;
+    font-weight: 900;
+    font-family: 'Red Hat Display', sans-serif;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.payment-btn {
+    margin-top: 2rem;
+    background-color: hsl(245, 75%, 52%);
+    color: hsl(225, 100%, 94%);
+    box-shadow: 0 5px 15px 1px rgba(56, 40, 224, 0.4);
+}
+
+.cancel-btn{
+    margin-top: 1rem;
+    color: hsl(224, 23%, 55%);
+    background-color: white;
+}

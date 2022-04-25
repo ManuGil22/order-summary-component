@@ -11,23 +11,23 @@ body {
 
 .card {
     background-color: white;
-    max-width: 400px;
+    max-width: 420px;
     border-radius: 1rem;
     text-align: center;
 }
 
 .illustration {
-    max-width: 400px;
+    max-width: 420px;
     border-radius: 1rem 1rem 0 0;
 }
 
 .container {
-    margin: 2rem;
+    margin: 2rem 3rem 3rem 3rem;
 }
 
 .card-title {
     color: hsl(223, 47%, 23%);
-    font-size: 22px;
+    font-size: 28px;
     font-weight: 900;
 }
 
@@ -35,3 +35,42 @@ body {
     color: hsl(224, 23%, 55%);
     font-size: 16px;
 }
+
+.card-plan {
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+    border-radius: 1rem;
+}
+
+.card-plan-description {
+    display: flex;
+    align-items: center;
+}
+
+.card-plan-text {
+    margin-left: 1rem;
+}
+
+.card-plan-image {
+    display: flex;
+}
+
+.music-icon {
+    max-width: 2.8rem;
+}
+
+.card-plan-text span {
+    color: hsl(223, 47%, 23%);
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.card-plan-price {
+    margin: 0.3rem 0 0 0;
+    color: hsl(224, 23%, 55%);
+    font-weight: 400;
+}
+

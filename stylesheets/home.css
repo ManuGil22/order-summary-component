@@ -3,4 +3,18 @@ body {
     padding: 0;
     height: 100vh;
     background: hsl(225, 100%, 94%) url("../images/pattern-background-desktop.svg") repeat-x center 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: white;
+    max-width: 400px;
+    border-radius: 1rem;
+}
+
+.illustration {
+    max-width: 400px;
+    border-radius: 1rem 1rem 0 0;
 }
